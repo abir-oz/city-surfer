@@ -1,0 +1,44 @@
+ul.result {
+    max-width: 400px;
+    margin: 0 auto;
+    list-style: none;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+ul.result li {
+    padding: 0 0 20px 50px;
+    position: relative;
+    margin: 0;
+}
+
+ul.result li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    background: #fff;
+}
+
+ul.result li:before {
+    position: absolute;
+    left: 11px;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 0;
+    border-left: 3px solid #fff;
+}
+
+ul.result li:last-of-type:before {
+    border: none;
+}

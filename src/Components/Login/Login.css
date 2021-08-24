@@ -1,0 +1,49 @@
+.bg-white-form {
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+
+.login-form input {
+
+    border: none;
+    border-bottom: 1px solid tomato;
+    margin-bottom: 25px;
+    border-radius: 0;
+}
+
+.social-login {
+    border: 1px solid gray;
+    border-radius: 57px;
+    margin-bottom: 25px;
+
+}
+
+.social-login-border {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-login-border:before,
+.social-login-border:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.social-login-border:before {
+    margin-right: 10px
+}
+
+.social-login-border:after {
+    margin-left: 10px
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
